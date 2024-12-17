@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Карточка товара</title>
+    <style>
+        .product-card {
+            width: 300px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .product-image {
+            width: 100%;
+        }
+
+        .product-image img {
+            width: 100%;
+            height: auto;
+            display: block; /* Убираем отступ снизу */
+        }
+
+        .product-info {
+            padding: 15px;
+        }
+
+        .product-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .product-description {
+            font-size: 14px;
+            line-height: 1.5;
+            margin-bottom: 15px;
+        }
+
+        .product-price {
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .product-rating {
+            margin-bottom: 10px;
+            color: gold;
+        }
+
+        .add-to-cart {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 16px;
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+            transition: background-color 0.3s ease;
+        }
+
+        .add-to-cart:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<article class="product-card">
+    <div class="product-image">
+        <img src="cecf1ca36d124b7480ca31d859900452.jpg" alt="Лучший разработчик">
+    </div>
+    <div class="product-info">
+        <h3 class="product-title">Лучший разработчик</h3>
+        <p class="product-description">Керамическая кружка белого цвета с надписью. Идеальный подарок для программиста.</p>
+        <div class="product-rating">4.5 из 5 звезд</div>
+        <p class="product-price">500 рублей</p>
+        <button class="add-to-cart">Добавить в корзину</button>
+    </div>
+</article>
+
+</body>
+</html>
